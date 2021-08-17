@@ -1,0 +1,154 @@
+.mobile-navigations {
+    position:fixed;
+    top : 0px;
+    left : 0;
+    height: 100%; 
+    width : 60%;
+    padding : 1rem 0 ; 
+    z-index : 9000000000000000;
+    box-shadow: 0 4px 8px 0 rgba(0 , 0 , 0 , 0.2) , 0 6px 20px 0 rgba(0 , 0 , 0 , 0.19);
+    background : #fff;
+    transition: transform 2s;
+    padding-left : 20px;
+    padding-right : 20px;
+}
+.d-nothing-sm {
+    display : none;
+}
+.out-of-view {
+    transform: translateX(-1000px);  
+}
+.relative {
+    position: relative;
+}
+  .container {
+    padding-left : 60px;
+    padding-right : 40px;
+  }
+  .frame {
+    display : -ms-flexbox ; 
+    display : flex ; 
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.d-sm-hide {
+    display : block;
+}
+
+.md-nav-2 a , .user-related a {
+  color : black;
+ font-weight: 350;
+ opacity : .85;
+ font-size: 0.8rem;
+ transition : color 2s; 
+ margin-right : 1.45rem;
+} 
+.md-nav-2 a:hover {
+ color : rgb(11, 90, 121);
+}
+section nav ul li{
+    list-style: none;
+    padding-bottom: 1rem;
+}
+/* .toggler{
+  margin: 1.125em;
+  width: 3.25em;
+  height: 3.25em;
+  position: absolute;
+  display: block;
+  transition: all 0.5s ease;
+}
+.toggler ul.buns{
+  width: 0.635em;
+  height: 1.635em;
+  list-style: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+} */
+.search-and-toggle a span{
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin-bottom: 5px;
+  background: black;
+  /* text-align: center */
+}
+
+.n-flag{
+  width: 2em;
+  height: 3em;
+}
+.bg-green{
+  background: green;
+}
+.nav-flex{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
+
+  
+
+@media(max-width : 568px){
+  .order-2 {
+    order : 2
+  }
+  .company-logo {
+    height: 4vw;
+    width : 20%;
+  }
+}
+@media (min-width : 768px){
+  .framer {
+    padding-left : 200px;
+    padding-right : 200px;
+  }
+  .header {
+    min-height: 60px;
+    padding-top : 2rem;
+    padding-bottom : 2rem;
+  }
+  .brand-logo {
+    width : 60%;
+  }
+  .hero-section {
+    height : 45rem;
+    padding-top : 15rem;
+  }
+  .hero-header {
+    font-size : 1.3rem;
+  }
+  .hero-text {
+    font-size : 1.9rem;
+  }
+  
+}
+@media(min-width:1200px){
+  .company-logo {
+    height: 2vw;
+    width : 20%;
+  } 
+}
+
+
+
+@media(max-width:930px){
+  .company-logo {
+    height: 2vw;
+    width : 20%;
+  } 
+  .d-sm-hide{
+    display: none;
+  }
+}
+
+
+
+@media(min-width:930px){
+  .d-md-hide{
+    display: none;
+  }
+}
